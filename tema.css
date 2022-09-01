@@ -98,7 +98,7 @@ main {
 }
 .back {
     margin-top: px;
-    background-image: url("Assets/images/cover2.JPG");
+    background-image: url("cover2.JPG");
     background-size: cover;
     background-position: center;
     height: 500px;
