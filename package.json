@@ -1,0 +1,11 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "Web Company Profile Abinara-1-ITS",
+  "main": "Animate.js",
+  "scripts": {
+    "start": "node index.html"
+  },
+  "author": "Hikam",
+  "license": "ISC"
+}

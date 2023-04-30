@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    
+    font-family: sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: azure;
+}
+
+.container {
+    text-align: center;
+}
+
+.cam {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.output_canvas {
+    margin-top: 15px;
+    border: 2px black solid;
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+.AI {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border: black solid;
+    background: white;
+    margin-top: 15px;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.AI:hover {
+    color: white;
+    background: black;
+}
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        text-align: center;
+    }
+    .cam {
+        
+        display: grid;
+        place-items: center;
+        margin-bottom: 35px;
+    }
+    .output_canvas {
+        margin-top: 15px;
+        width: 300px;
+        height: 400px;
+        border: 2px black solid;
+        border-radius: 10px;
+        max-width: 90%;
+    }
+}
